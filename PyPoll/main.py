@@ -11,12 +11,11 @@ with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
 
-# Recongize variabls after the header line and also define starting points for variables we will need to complete the task.
+# Recongize variables after the header line and also define starting points for variables we will need to complete the task.
 
     csvheader  = next(csvreader)
 
     rowcount = 0
-    #profitlosstotal = 0
     DeGette_Count = 0
     Stockham_Count = 0
     Doane_Count = 0
@@ -45,7 +44,10 @@ with open(csvpath) as csvfile:
         elif row[2] == 'Raymon Anthony Doane':
             Doane_Count += 1
 
-print("Stockham receuved: ", Stockham_Count, " votes.")
+
+#Print the analysis to the terminal and export a text file with the results.
+print("Total number of votes in dataset: ", rowcount)
+print("Stockham received: ", Stockham_Count, " votes.")
 print("DeGette received: ", DeGette_Count, " votes.")
 print("Doane received: ", Doane_Count,"votes.")
 
@@ -61,17 +63,13 @@ print("Doane received: ",Doane_Percent,"%")
 
 
 
-#Create dictionary to store numeric vote value along with the candidate name
+#Create dictionary to store numeric vote value along with the candidate name.
 Election_Results = {'Charles Casper Stockham':Stockham_Count, 'Diana DeGette':DeGette_Count, 'Raymon Anthony Doane':Doane_Count}
 
 #Determine the winner of the election based on popular vote using max.
 Winner = max(Election_Results, key=Election_Results.get)
 
 print(Winner," is the winner")
-
-
-#Print the analysis to the terminal and export a text file with the results.
-print("Total number of votes in dataset: ", rowcount)
 
 #Print results in desired format
 toprint = f"""
