@@ -89,7 +89,7 @@ print(toprint)
 
 # Print the analysis to the terminal and export a text file with the results.
 
-fname = os.path.join('.','Analysis','PyBank_Results.txt')
+fname = os.path.join('.','Analysis','PyPoll_Results.txt')
 
 with open(fname,"w") as sample:
     sample.writelines(toprint)
