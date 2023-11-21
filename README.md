@@ -92,7 +92,9 @@ Homework for the Python module of DataViz bootcamp.
 
     with open(fname,"w") as sample:
         sample.writelines(lines_to_print)
-    
+```
+```python
+
 # RESULTS
 
     Financial Analysis
@@ -106,6 +108,8 @@ Homework for the Python module of DataViz bootcamp.
     Greatest Increase in Profits: Aug-16 $1,862,002.00
 
     Greatest Decrease in Profits: Feb-14 $-1,825,558.00
+```
+```python
 
 # PyPoll Task
 
@@ -206,6 +210,8 @@ Homework for the Python module of DataViz bootcamp.
 
     with open(fname,"w") as sample:
         sample.writelines(toprint)
+```
+```python
     
 # RESULTS
 
