@@ -1,6 +1,8 @@
 
 # Python Scripting Practice
 
+Full code and .csv data files are located in the PyBank and PyPoll folers respectively.
+
 ## Practicing python scripting with two data sets in csv files
 ```
 The first task I use budget data with the following goals:
