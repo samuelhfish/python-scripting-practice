@@ -7,28 +7,28 @@ Full code and .csv data files are located in the PyBank and PyPoll folers respec
 
 **The first task I use budget data with the following goals:**
 
- _-total number of months included in the dataset
+ _total number of months included in the dataset_
 
--net total amount of "Profit/Losses" over the entire period
+_net total amount of "Profit/Losses" over the entire period_
 
--changes in "Profit/Losses" over the entire period, and then the average of those changes
+_changes in "Profit/Losses" over the entire period, and then the average of those changes_
 
--greatest increase in profits (date and amount) over the entire period
+_greatest increase in profits (date and amount) over the entire period_
 
--greatest decrease in profits (date and amount) over the entire period_
+_greatest decrease in profits (date and amount) over the entire period_
 
 
 **The second task I use election data with the following goals:**
 
-_-total number of votes cast
+_total number of votes cast_
 
--complete list of candidates who received votes
+_complete list of candidates who received votes_
 
--percentage of votes each candidate won
+_percentage of votes each candidate won_
 
--total number of votes each candidate won
+_total number of votes each candidate won_
 
--winner of the election based on popular vote_
+_winner of the election based on popular vote_
 
 
 ```python
