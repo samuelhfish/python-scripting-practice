@@ -5,9 +5,9 @@ Full code and .csv data files are located in the PyBank and PyPoll folers respec
 
 ## Practicing python scripting with two data sets in csv files
 
-The first task I use budget data with the following goals:
+**The first task I use budget data with the following goals:**
 
--total number of months included in the dataset
+ _-total number of months included in the dataset
 
 -net total amount of "Profit/Losses" over the entire period
 
@@ -15,12 +15,12 @@ The first task I use budget data with the following goals:
 
 -greatest increase in profits (date and amount) over the entire period
 
--greatest decrease in profits (date and amount) over the entire period
+-greatest decrease in profits (date and amount) over the entire period_
 
 
-The second task I use election data with the following goals:
+**The second task I use election data with the following goals:**
 
--total number of votes cast
+_-total number of votes cast
 
 -complete list of candidates who received votes
 
@@ -28,7 +28,7 @@ The second task I use election data with the following goals:
 
 -total number of votes each candidate won
 
--winner of the election based on popular vote
+-winner of the election based on popular vote_
 
 
 ```python
