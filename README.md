@@ -122,7 +122,7 @@ _-winner of the election based on popular vote_
     with open(fname,"w") as sample:
         sample.writelines(lines_to_print)
 ```
-```python
+```
 
 # RESULTS
 
@@ -240,7 +240,7 @@ _-winner of the election based on popular vote_
     with open(fname,"w") as sample:
         sample.writelines(toprint)
 ```
-```python
+```
     
 # RESULTS
 
