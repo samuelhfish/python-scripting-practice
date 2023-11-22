@@ -30,12 +30,12 @@ with open(csvpath) as csvfile:
 
         rowcount+= 1
 
-#Create a complete list of candidates who received votes.
+# Create a complete list of candidates who received votes.
         if row[2] not in candidate:
             candidate.append(row[2])
             print(candidate) 
 
-#Determine total number of votes each candidate won.
+# Determine total number of votes each candidate won.
 
         if row[2] == 'Charles Casper Stockham':
             Stockham_Count += 1
@@ -45,13 +45,13 @@ with open(csvpath) as csvfile:
             Doane_Count += 1
 
 
-#Print the analysis to the terminal and export a text file with the results.
+# Print the analysis to the terminal and export a text file with the results.
 print("Total number of votes in dataset: ", rowcount)
 print("Stockham received: ", Stockham_Count, " votes.")
 print("DeGette received: ", DeGette_Count, " votes.")
 print("Doane received: ", Doane_Count,"votes.")
 
-#Determine percentage of votes each candidate won.
+# Determine percentage of votes each candidate won.
 
 Stockham_Percent = round((Stockham_Count / rowcount) * 100, 3)
 DeGette_Percent = round((DeGette_Count / rowcount) * 100, 3)
@@ -63,15 +63,15 @@ print("Doane received: ",Doane_Percent,"%")
 
 
 
-#Create dictionary to store numeric vote value along with the candidate name.
+# Create dictionary to store numeric vote value along with the candidate name.
 Election_Results = {'Charles Casper Stockham':Stockham_Count, 'Diana DeGette':DeGette_Count, 'Raymon Anthony Doane':Doane_Count}
 
-#Determine the winner of the election based on popular vote using max.
+# Determine the winner of the election based on popular vote using max.
 Winner = max(Election_Results, key=Election_Results.get)
 
 print(Winner," is the winner")
 
-#Print results in desired format
+# Print results in desired format
 toprint = f"""
 -----------------------
 Election Results

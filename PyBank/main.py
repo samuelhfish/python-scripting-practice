@@ -8,7 +8,7 @@ with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
 
-# Recongize variabls after the header line and also define starting points for variables we will need to complete the task.
+# Recongize variables after the header line and also define starting points for variables we will need to complete the task.
 
     csvheader  = next(csvreader)
 
@@ -20,7 +20,7 @@ with open(csvpath) as csvfile:
     month =[]
     total_changes=[]
 
-# start loop to go throuch sheet and retrieve required info
+# Start loop to go throuch sheet and retrieve required info
 
     for row in csvreader:
 
@@ -41,7 +41,7 @@ with open(csvpath) as csvfile:
 
         month.append(row[0])
 
- # remove 1 month as there would be no change on this month and also the corresponding month to correctly insert the date.     
+ # Remove 1 month as there would be no change on this month and also the corresponding month to correctly insert the date.     
 total_changes.pop(0)
 month.pop(0)
 
