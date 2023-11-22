@@ -3,32 +3,32 @@
 
 Full code and .csv data files are located in the PyBank and PyPoll folers respectively.
 
-## Practicing python scripting with two data sets in csv files
+## Practicing python scripting with two data sets in csv files...
 
 **The first task I use budget data with the following goals:**
 
- _total number of months included in the dataset_
+ _-total number of months included in the dataset_
 
-_net total amount of "Profit/Losses" over the entire period_
+_-net total amount of "Profit/Losses" over the entire period_
 
-_changes in "Profit/Losses" over the entire period, and then the average of those changes_
+_-changes in "Profit/Losses" over the entire period, and then the average of those changes_
 
-_greatest increase in profits (date and amount) over the entire period_
+_-greatest increase in profits (date and amount) over the entire period_
 
-_greatest decrease in profits (date and amount) over the entire period_
+_-greatest decrease in profits (date and amount) over the entire period_
 
 
 **The second task I use election data with the following goals:**
 
-_total number of votes cast_
+_-total number of votes cast_
 
-_complete list of candidates who received votes_
+_-complete list of candidates who received votes_
 
-_percentage of votes each candidate won_
+_-percentage of votes each candidate won_
 
-_total number of votes each candidate won_
+_-total number of votes each candidate won_
 
-_winner of the election based on popular vote_
+_-winner of the election based on popular vote_
 
 
 ```python
