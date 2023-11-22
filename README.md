@@ -1,7 +1,7 @@
 
 # Python Scripting Practice
 
-Full code and .csv data files are located in the PyBank and PyPoll folers respectively.
+Full code and .csv data files are located in the PyBank and PyPoll folers respectively. Running main.py for each respective task will produce .txt files with results.
 
 ## Practicing python scripting with two data sets in csv files...
 
