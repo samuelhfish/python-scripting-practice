@@ -1,8 +1,35 @@
+
+# Python Scripting Practice
+
+## Practicing python scripting with two data sets in csv files
+```
+The first task I use budget data with the following goals:
+
+-total number of months included in the dataset
+
+-net total amount of "Profit/Losses" over the entire period
+
+-changes in "Profit/Losses" over the entire period, and then the average of those changes
+
+-greatest increase in profits (date and amount) over the entire period
+
+-greatest decrease in profits (date and amount) over the entire period
+```
+```
+The second task I use election data with the following goals:
+
+-total number of votes cast
+
+-complete list of candidates who received votes
+
+-percentage of votes each candidate won
+
+-total number of votes each candidate won
+
+-winner of the election based on popular vote
+```
+
 ```python
-# python-challenge
-Homework for the Python module of DataViz bootcamp.
-
-
 # PyBank Task
 
 # Import data from CSV file and create CSV reader
