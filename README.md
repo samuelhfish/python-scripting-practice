@@ -5,7 +5,7 @@ Full code and .csv data files are located in the PyBank and PyPoll folers respec
 
 ## Practicing python scripting with two data sets in csv files...
 
-**The first task I use budget data with the following goals:**
+**The first task I use bank data with the following goals:**
 
  _-total number of months included in the dataset_
 
@@ -18,7 +18,7 @@ _-greatest increase in profits (date and amount) over the entire period_
 _-greatest decrease in profits (date and amount) over the entire period_
 
 
-**The second task I use election data with the following goals:**
+**The second task I use election poll data with the following goals:**
 
 _-total number of votes cast_
 
